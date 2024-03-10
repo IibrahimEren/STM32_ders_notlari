@@ -1,2 +1,3 @@
 İnterrup ayarlanması için öncelikle ioc dosyası içerisinde buton olarak ayarlayacağımız butonu **GPIO_EXTI0** olarak ayarlamammız gerekiyor --> Externalinput --> Dış kesme
-SOnrasında bu interrrup'ı aktif edebilmemiz için **System Core** bölümünden NVIC sekmesini açarak ''EXTI line0'' seçimini aktif ediyoruz. Böylece interrup'ları aktif etmiş oluyoruz.
+Sonrasında bu interrrup'ı aktif edebilmemiz için **System Core** bölümünden *NVIC* sekmesini açarak *EXTI line0* seçimini aktif ediyoruz. Böylece interrup'ları aktif etmiş oluyoruz.
+stm32f4xx_it.c dosyası içerisinde **EXTI0_IRQHANDLER** fonksiyonuna ulaşıp içerisinde olan fonksiyonun içerisinde sağ tıklayarak gidiyoruz. --> içerisinde bulunan __weak ile başlayan fonksiyonu alarak ana dosyamız içerisinde user code 4 kısmına yapıştırıyoruz.
