@@ -4,7 +4,7 @@
 - sonrasında kalan işimiz duty değerini ayarlamak oluyor bu da aşağıda verilen denklem ile oluyor.
 - ![duty](https://github.com/IibrahimEren/STM32_ders_notlari/assets/87008174/e15636b7-8dd7-4dd9-968d-62bd76f0c287)
 - kısayol olarak mesela ARR değerini 10.000 yaptıysak ve %20'lik bir duty değeri istiyorsak;
-- **__HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_2,2000);** kodunu yazarsak *2000 değeri 10.000 değerinin %20'si demek oluyor* hesap yapmadan geçmemize olanak sağlayabilir
+- **__HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_2,2000);** kodunu yazarsak *2000 değeri 10.000 değerinin %20'si demek oluyor* hesap yapmadan geçmemize olanak sağlayabilir. Bu pine ne kadar bir güç verileceğini ayarlamamıza yarıyor.
 
   **Logic analyzer cihazı ile birlikte pwm sinyallerini görebiliriz --> Satın alınacak**
 - 
