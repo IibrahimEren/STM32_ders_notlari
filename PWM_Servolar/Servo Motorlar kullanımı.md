@@ -33,4 +33,23 @@
    *
    *
    */
+
+/* USER CODE BEGIN 3 */
+
+    for(int i=20;i<=130;i=i+2)
+    {
+    	__HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_2,i);
+    	HAL_Delay(100);
+    }
+
+    HAL_Delay(2000);
+
+    for(int i=130;i>=0;i=i-2)
+    {
+    	__HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_2,i);
+        HAL_Delay(100);
+    }
+    HAL_Delay(2000);
+  }
+  /* USER CODE END 3 */
 ```
