@@ -7,8 +7,8 @@
 
 | 90 derece için | 2ms pulse | 2/20 → %20 değerine denk geliyor |
 | --- | --- | --- |
-| 0 derece için  | 1.5 ms pulse | 1.5/20 → %15 değerine denk geliyor |
-| -90 derece için | 1 ms pulse | 1/20 → %10 değerinde denk geliyor |
+| 0 derece için  | 1.5 ms pulse | 1.5/20 → %7.5 değerine denk geliyor |
+| -90 derece için | 1 ms pulse | 1/20 → %5 değerinde denk geliyor |
 
 ### Sg90 servo motorları için compare değerleri
 
