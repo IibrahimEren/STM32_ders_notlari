@@ -11,6 +11,7 @@
 | -90 derece için | 1 ms pulse | 1/20 → %5 değerinde denk geliyor |
 
 ### Sg90 servo motorları için compare değerleri
+Kullandığımız çoğu ürün replika olduğu için burada yazılan duty cycledeğerleri datasheet ile uyumlu olmayabilir. asıl değerlerini öğrenmek için kendi denemelerimizi yapmamız gerekir
 
 ```c
 /*
